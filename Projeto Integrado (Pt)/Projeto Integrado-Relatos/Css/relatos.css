@@ -1,0 +1,136 @@
+/* -----Imports----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+/* -----Body----- */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../Imagens/RelatoWall[Light].jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    }
+
+/* -----Container Principal----- */
+
+.container {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.1);;
+    padding: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height:760em;
+    width: 69em;
+    margin: auto;
+    position: relative;
+    margin-top: 5em;
+}
+
+.containertitle {
+    width: 25em;
+    display: block;
+    padding-bottom: 2em;
+    margin: auto;
+    letter-spacing: 2px;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 2em;
+   
+}
+
+/* -----Imagens----- */
+
+img {
+    display: block;
+    margin: auto;
+    width: 15em;
+    border-radius: 50%;
+}
+
+.teste{
+    box-shadow: 0 0 1em #000000;
+
+}
+
+/* -----Nomes----- */
+.nomes {
+    margin-left: 15.2em;
+    width: 7em;
+    font-size: 30px;
+    padding-top: 1em;
+    text-align: center;
+}
+
+/* -----Introducão----- */
+.indrocu{
+    width: 40.2em;
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 5em;
+
+}
+
+/* -----Relatos----- */
+
+.relatos {
+    width: 40.2em;
+    font-size: 17px;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 5em;
+}
+
+/* -----Rolamento----- */
+
+.rolamento {
+    height: 5em;
+    width: 5em;
+    margin-top: 3em;
+}
+
+/* -----Menu----- */
+
+.Menu {
+    list-style: none;
+    padding: 0;
+    max-width: 100rem;
+    height: 4em;
+    margin-top: 0px;
+    background-color: #ffffff;
+}
+
+
+.Menu li {
+    display: inline;
+}
+
+.Menu li a {
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 14px;
+    display: inline-block;
+    transition: background .4s;
+    margin-right: 10px;
+}
+
+.Menu li a:hover {
+    font-weight: 800;
+}
+
